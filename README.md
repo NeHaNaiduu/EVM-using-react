@@ -1,8 +1,27 @@
-# React + Vite
+## Electronic Voting Machine (EVM) - ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description:
 
-Currently, two official plugins are available:
+This project is a responsive Electronic Voting Machine (EVM) developed using ReactJS. It allows users to vote for their respective candidates, and upon the completion of voting, the winner is alerted in a popup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is made only for fun, to experiment with ReactJS and create an interactive voting experience.
+
+### Features:
+
+- Allows users to vote for their preferred candidates.
+  
+- Displays the current vote count for each candidate.
+  
+- Alerts the winner in a popup after voting is completed and the winner button is clicked.
+  
+- Responsive design, suitable for various screen sizes.
+
+
+### Technologies Used:
+
+- ReactJS
+
+- JSX
+
+- CSS
+
