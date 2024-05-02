@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 40px;
+}
+#machine{
+  width: 70vmin;
+  border-radius: 1rem;
+  height: 90vmin;
+  background-color: rgb(131, 128, 129);
+}
+#machine .wrapper{
+  margin-top: 20px;
+}
+#machine .wrapper .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#machine .wrapper .click{
+  background-color: #242424;
+  width: 100px;
+  height: 60px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+#machine .wrapper .click:hover{
+  opacity: 0.8;
+}
+#machine .wrapper i{
+  font-size: 40px;
+}
+#machine .wrapper .vote-count{
+  font-size: 70px;
+}
+img{
+  width: 100px;
+}
+.winner-btn{
+  padding: 15px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+.winner-btn:hover{
+  box-shadow: 2px 5px 10px rgba(249, 251, 251, 0.2);
+}
+
+@media (max-width:390px) {
+  h1{
+    font-size: 20px;
+  }
+  #machine{
+    width: 70vmin;
+    border-radius: 1rem;
+    height: 90vmin;
+    background-color: rgb(131, 128, 129);
+  }
+  #machine .wrapper{
+    margin-bottom: 10px;
+  }
+  #machine .wrapper .click{
+    width: 80px;
+    height: 40px;
+  }
+  #machine .wrapper i{
+    font-size: 20px;
+  }
+  #machine .wrapper .vote-count{
+    font-size: 30px;
+  }
+  img{
+    width: 50px;
+  }
+  .winner-btn{
+    padding: 10px;
+  }
+}
